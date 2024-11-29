@@ -61,30 +61,30 @@
             </div>
         </main>
         
-
+            <!-- cart form -->
        
-            <main v-else-if="view === 'cart'" id="cartList">
-                <h1 class="cart-title">Your Cart</h1>
-                <div v-if="cart.length === 0" class="empty-cart-message">
-                    <p>Your cart is empty.</p>
-                </div>
-                <div v-else class="cart-items">
-                    <div v-for="item in cart" :key="item.id" class="cart-item">
-                        <img :src="item.image" :alt="item.subject" class="cart-item-image">
-                        <div class="cart-item-details">
-                            <h4>{{ item.subject }}</h4>
-                            <p>Quantity: {{ item.quantity }}</p>
-                            <p>Total Price: ${{ item.quantity * item.price }}</p>
-                            <button @click="removeOne(item)">Remove One</button>
-                            
-                        </div>
+        <main v-else-if="view === 'cart'" id="cartList">
+            <h1 class="cart-title">Your Cart</h1>
+            <div v-if="cart.length === 0" class="empty-cart-message">
+                <p>Your cart is empty.</p>
+            </div>
+            <div v-else class="cart-items">
+                <div v-for="item in cart" :key="item.id" class="cart-item">
+                    <img :src="item.image" :alt="item.subject" class="cart-item-image">
+                    <div class="cart-item-details">
+                        <h4>{{ item.subject }}</h4>
+                        <p>Quantity: {{ item.quantity }}</p>
+                        <p>Total Price: ${{ item.quantity * item.price }}</p>
+                        <button @click="removeOne(item)">Remove One</button>
+                        
                     </div>
                 </div>
-                <div class="cart-buttons">
-                    <button @click="proceedToPayment" :disabled="cart.length === 0">Proceed to Payment</button>
-                    <button @click="goToStore">Back to Store</button>
-                </div>
-            </main>
+            </div>
+            <div class="cart-buttons">
+                <button @click="proceedToPayment" :disabled="cart.length === 0">Proceed to Payment</button>
+                <button @click="goToStore">Back to Store</button>
+            </div>
+        </main>
 
 
         <!-- payment form -->
