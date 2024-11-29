@@ -157,6 +157,7 @@ header button:hover,
 .book button:hover:not(:disabled) {
     background-color: #347928;
 }
+/* rating star */
 .rating i {
     color: gold; /* Filled stars */
     font-size: 20px; /* Adjust size */
