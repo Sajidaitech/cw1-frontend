@@ -38,7 +38,7 @@
             </button>
         </header>
 
-        
+        <!-- store view  -->
         <main v-if="view === 'store'" id="bookList">
             <div v-for="book in sortedBooks" :key="book.id" class="book">
                 <img :src="book.image" :alt="book.subject" class="book-image">
