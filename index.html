@@ -12,7 +12,7 @@
 </head>
 <body>
     <div id="app">
-        
+        <!-- Logo form -->
         <header v-if="view === 'store'">
     
             <div class="logo-container">
@@ -22,7 +22,7 @@
             <input type="text" class="search-bar" v-model="searchQuery" placeholder="Search for books...">
             <button id="sortToggleBtn" @click="toggleSort">{{ sortOrder === 'asc' ? 'Sort Descending' : 'Sort Ascending' }}</button>
 
-            <!-- Sorting -->
+            <!-- Sorting form -->
             <div id="sortDropdown">
                 <button class="dropdown-button">Sort By</button>
                 <div id="sortDropdownContent">
