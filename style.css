@@ -44,7 +44,7 @@ header h1 {
     border-radius: 4px;
     font-size: 16px;
 }
-
+/* Sorting button */
 header button,
 #sortToggleBtn,
 .dropdown-button {
