@@ -1,0 +1,120 @@
+[{
+  "_id": {
+    "$oid": "675b22ae26b2d0ff63cd04ca"
+  },
+  "id": 101,
+  "title": "Swimming Club",
+  "subject": "Swimming",
+  "location": "Dubai",
+  "price": 100,
+  "image": "images/swimming.jpg",
+  "AvailableInventory": 10
+},
+{
+  "_id": {
+    "$oid": "675b234326b2d0ff63cd04cd"
+  },
+  "id": 102,
+  "title": "Group Study",
+  "subject": "Education",
+  "location": "Ajman",
+  "price": 155,
+  "image": "images/groupstudy.jpg",
+  "AvailableInventory": 20
+},
+{
+  "_id": {
+    "$oid": "675b235526b2d0ff63cd04cf"
+  },
+  "id": 103,
+  "title": "Math",
+  "subject": "Math",
+  "location": "Abu Dhabi",
+  "price": 130,
+  "image": "images/book_math.jpg",
+  "AvailableInventory": 25
+},
+{
+  "_id": {
+    "$oid": "675b236526b2d0ff63cd04d1"
+  },
+  "id": 104,
+  "title": "Art",
+  "subject": "Painting",
+  "location": "Dubai",
+  "price": 80,
+  "image": "images/painting.jpg",
+  "AvailableInventory": 15
+},
+{
+  "_id": {
+    "$oid": "675b237f26b2d0ff63cd04d3"
+  },
+  "id": 105,
+  "title": "Football",
+  "subject": "Sports",
+  "location": "Dubai ",
+  "price": 100,
+  "image": "images/football.jpg",
+  "AvailableInventory": 25
+},
+{
+  "_id": {
+    "$oid": "675b238b26b2d0ff63cd04d5"
+  },
+  "id": 106,
+  "title": "Games",
+  "subject": "Computer",
+  "location": "Dubai",
+  "price": 195,
+  "image": "images/games.jpg",
+  "AvailableInventory": 25
+},
+{
+  "_id": {
+    "$oid": "675b239826b2d0ff63cd04d7"
+  },
+  "id": 107,
+  "title": "Outing",
+  "subject": "Friend Gathering",
+  "location": "Free Zone",
+  "price": 130,
+  "image": "images/outing.jpg",
+  "AvailableInventory": 18
+},
+{
+  "_id": {
+    "$oid": "675b23a126b2d0ff63cd04d9"
+  },
+  "id": 108,
+  "title": "Robotics Club",
+  "subject": "Robotics",
+  "location": "Sharjah",
+  "price": 170,
+  "image": "images/robotics.jpg",
+  "AvailableInventory": 10
+},
+{
+  "_id": {
+    "$oid": "675b23a926b2d0ff63cd04db"
+  },
+  "id": 109,
+  "title": "Drama Club",
+  "subject": "Drama",
+  "location": "Dubai",
+  "price": 150,
+  "image": "images/Drama.jpg",
+  "AvailableInventory": 8
+},
+{
+  "_id": {
+    "$oid": "675b23af26b2d0ff63cd04dd"
+  },
+  "id": 110,
+  "title": "IT",
+  "subject": "Technology",
+  "location": "Abu Dhabi",
+  "price": 120,
+  "image": "images/book_technology.jpg",
+  "AvailableInventory": 5
+}]
