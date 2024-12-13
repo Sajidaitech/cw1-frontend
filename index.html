@@ -279,7 +279,7 @@
           async fetchActivities() {
             try {
               const response = await fetch(
-                "https://back-end-f7d6.onrender.com/collection/products"
+                "https://testweek.onrender.com/collection/products"
               );
               const data = await response.json();
               this.activities = data.activities || [];
@@ -322,7 +322,7 @@
           async submitOrder() {
             try {
               const response = await fetch(
-                "https://back-end-f7d6.onrender.com/place-order",
+                "https://testweek.onrender.com/place-order",
                 {
                   method: "POST",
                   headers: {
