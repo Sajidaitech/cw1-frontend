@@ -384,11 +384,7 @@
           async fetchActivities() {
             try {
               const response = await fetch(
-<<<<<<< HEAD
                 "https://back-end-f7d6.onrender.com/collection/Products"
-=======
-                "https://frontend-1-by8p.onrender.com/collection/lessons"
->>>>>>> 5f673217d828486ba7f80afdd5e9d6add3dcd64c
               );
               const data = await response.json();
               this.activities = data.activities || [];
