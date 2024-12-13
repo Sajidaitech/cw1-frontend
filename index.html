@@ -198,112 +198,7 @@
           searchQuery: "",
           sortCategory: "price",
           sortOrder: "asc",
-<<<<<<< HEAD
           products: [],
-=======
-          products: [
-          {
-              id: 101,
-              title: "Swimming Club",
-              subject: "Swimming",
-              location: "Dubai",
-              price: 100,
-              image: "images/swimming.jpg",
-              AvailableInventory: 10,
-            
-            },
-            {
-              id: 102,
-              title: "Group Study",
-              subject: "Education",
-              location: "Ajman",
-              price: 155,
-              image: "images/groupstudy.jpg",
-              AvailableInventory: 20,
-             
-            },
-            {
-              id: 103,
-              title: "Math",
-              subject: "Math",
-              location: "Abu Dhabi",
-              price: 130,
-              image: "images/book_math.jpg",
-              AvailableInventory: 25,
-              
-            },
-            {
-              id: 104,
-              title: "Art",
-              subject: "Painting",
-              location: "Dubai",
-              price: 80,
-              image: "images/painting.jpg",
-              AvailableInventory: 15,
-             
-            },
-            {
-              id: 105,
-              title: "Football",
-              subject: "Sports",
-              location: "Dubai",
-              price: 100,
-              image: "images/football.jpg",
-              AvailableInventory: 25,
-             
-            },
-            {
-              id: 106,
-              title: "Games",
-              subject: "Computer",
-              location: "Dubai",
-              price: 195,
-              image: "images/games.jpg",
-              AvailableInventory: 25,
-              
-            },
-            {
-              id: 107,
-              title: "Outing",
-              subject: "Friend Gathering",
-              location: "Free Zone",
-              price: 130,
-              image: "images/outing.jpg",
-              AvailableInventory: 18,
-        
-            },
-            {
-              id: 108,
-              title: "Robotics Club",
-              subject: "Robotics",
-              location: "Sharjah",
-              price: 170,
-              image: "images/robotics.jpg",
-              AvailableInventory: 10,
-             
-            },
-            {
-              id: 109,
-              title: "Drama Club",
-              subject: "Drama",
-              location: "Dubai",
-              price: 150,
-              image: "images/Drama.jpg",
-              AvailableInventory: 8,
-              
-            },
-            {
-              id: 110,
-              title: "IT",
-              subject: "Technology",
-              location: "Abu Dhabi",
-              price: 120,
-              image: "images/book_technology.jpg",
-              AvailableInventory: 5,
-              
-            },
-          ],
->>>>>>> 5f673217d828486ba7f80afdd5e9d6add3dcd64c
           cart: [],
           order: {
             firstName: "",
@@ -384,7 +279,7 @@
           async fetchActivities() {
             try {
               const response = await fetch(
-                "https://back-end-f7d6.onrender.com/collection/Products"
+                "https://back-end-f7d6.onrender.com/collection/products"
               );
               const data = await response.json();
               this.activities = data.activities || [];
